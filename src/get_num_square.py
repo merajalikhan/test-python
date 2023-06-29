@@ -8,7 +8,7 @@ if num:
         num = int(num)
     except Exception:
         print('ERROR:: the INPUT_NUM provided ("{}") is not an integer'.format(num))
-        #exit('ERROR: the INPUT_NUM provided ("{}") is not an integer'.format(num))
+        exit('ERROR: the INPUT_NUM provided ("{}") is not an integer'.format(num))
 else:
     num = 1
 
